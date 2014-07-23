@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<style media="all" type="text/css">
+			@import "style.css";
+		</style>
+		<script type="text/javascript">
+			var image1 = new Image();
+			image1.src = "http://cdn5.triplepundit.com/wp-content/uploads/2012/09/att_rp_vt_r_4cp_grd_wht.jpg";
+			var image2 = new Image();
+			image2.src = "http://images6.alphacoders.com/316/316963.jpg";
+		</script>
+	</head>
+	<body>
+		<div id="pic-note" class="picnote" style="overflow: visible; height: auto;">
+			<h1 align="middle">Welcome Aboard Pics</h1>
+			<div id="picsrc1" align="middle">
+				<a href="http://cdn5.triplepundit.com/wp-content/uploads/2012/09/att_rp_vt_r_4cp_grd_wht.jpg">
+					<img src="http://cdn5.triplepundit.com/wp-content/uploads/2012/09/att_rp_vt_r_4cp_grd_wht.jpg" alt="Failed to load pic :(" width="150" name="pic">
+					<script type="text/javascript">
+						var step=1;
+        				function slideit()
+        				{
+            				document.images.pic.src = eval("image"+step+".src");
+            				if(step<2)
+                				step++;
+            				else
+                			step=1;
+            				setTimeout("slideit()",2500);
+        				}
+        				slideit();
+        			</script>
+
+					</script>
+				</a>
+			</div>
+	</div>
+	</body>
+</html>

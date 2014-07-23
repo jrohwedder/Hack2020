@@ -1,0 +1,16 @@
+#todo-note
+{
+    background-color: #d0e4fe;
+    width: 15%;
+    color: red;
+    border-style: groove;
+    border-width: 5px;
+}
+#pic-note
+{
+	background-color: #eae672;
+    width: 15%;
+    color: black;
+    border-style: groove;
+    border-width: 5px;
+}
